@@ -1,12 +1,9 @@
 import streamlit as st
 import requests
 
- # Change this URL to the one of your API
 API_URL = "https://ml-reboot-app-964216878437.europe-west1.run.app/"
 
 st.title("Iris Predictor MVP")
-
-#st.write("Iris predictor")
 
 sepal_length = st.slider('Select a value for Sepal length', min_value=0, max_value=4, value=1, step=1)
 sepal_width = st.slider('Select a value for Sepal width',  min_value=0, max_value=4, value=1, step=1)
